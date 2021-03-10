@@ -26,9 +26,9 @@ function oszt(){
 
 function szamolas (){
 
-var valtA=document.getElementById("a").value;
-var valtB=document.getElementById("b").value;
-var valtM=document.getElementById("muv").value;
+valtA=document.getElementById("a").value;
+valtB=document.getElementById("b").value;
+valtM=document.getElementById("muv").value;
 if(valtM==="+"){
     osszead();
 }else if(valtM==="-"){
